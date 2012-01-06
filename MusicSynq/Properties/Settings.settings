@@ -2,7 +2,13 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MusicSynq.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="SessionID" Type="System.String" Scope="User">
+    <Setting Name="LibraryPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DeviceName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExtensionName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

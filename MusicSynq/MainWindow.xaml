@@ -7,25 +7,24 @@
             <ColumnDefinition Width="519*" />
             <ColumnDefinition Width="14*" />
         </Grid.ColumnDefinitions>
-        <TextBox Height="23" Margin="116,43,294,0" Name="primaryDriveText" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="116,74,0,0" Name="secondaryDriveText" VerticalAlignment="Top" Width="212" />
-        <Button Content="Synchronize" Height="23" HorizontalAlignment="Left" Margin="23,106,0,0" Name="syncBtn" VerticalAlignment="Top" Width="75" Click="syncBtn_Click" />
-        <Label Height="28" HorizontalAlignment="Left" Margin="20,139,0,0" Name="statusLabel" VerticalAlignment="Top" Width="583" />
-        <Label Content="Media Device:" Height="28" HorizontalAlignment="Left" Margin="14,43,0,0" Name="label1" VerticalAlignment="Top" />
-        <Label Content="Device Extension:" Height="28" HorizontalAlignment="Left" Margin="14,72,0,0" Name="label2" VerticalAlignment="Top" />
-        <Label Content="Free space: " Height="28" HorizontalAlignment="Left" Margin="334,72,0,0" Name="label3" VerticalAlignment="Top" />
-        <Label Content="Free space: " Height="28" HorizontalAlignment="Left" Margin="334,43,0,0" Name="label4" VerticalAlignment="Top" />
-        <Label Height="28" HorizontalAlignment="Left" Margin="405,43,0,0" Name="deviceSpaceLabel" VerticalAlignment="Top" Width="72" />
-        <Label Height="28" HorizontalAlignment="Left" Margin="405,69,0,0" Name="extensionSpaceLabel" VerticalAlignment="Top" Width="72" />
-        <Label Content="Library:" Height="28" HorizontalAlignment="Left" Margin="14,12,0,0" Name="label5" VerticalAlignment="Top" />
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="116,14,0,0" Name="libraryPathText" VerticalAlignment="Top" Width="212" />
-        <Label Content="Size of files:" Height="28" HorizontalAlignment="Left" Margin="334,14,0,0" Name="label6" VerticalAlignment="Top" />
-        <Label Height="28" HorizontalAlignment="Left" Margin="405,14,0,0" Name="librarySize" VerticalAlignment="Top" Width="72" />
-        <ProgressBar Height="18" HorizontalAlignment="Left" Margin="106,106,0,0" Name="progressBar1" VerticalAlignment="Top" Width="291" />
-        <Image Height="117" HorizontalAlignment="Left" Margin="486,12,0,0" Name="albumArtHolder" Stretch="Fill" VerticalAlignment="Top" Width="117
-               " />
-        <Label Height="28" HorizontalAlignment="Left" Margin="405,101,0,0" Name="numProcessedLabel" VerticalAlignment="Top" Width="72" />
-        <Canvas Height="23" HorizontalAlignment="Left" Margin="116,43,0,0" Name="canvas1" VerticalAlignment="Top" Width="0" Background="#4300D400"></Canvas>
-        <Canvas HorizontalAlignment="Left" Name="canvas2" Width="0" Margin="116,74,0,84" Background="#4300D400" />
+        <TextBox Height="23" Margin="116,43,294,0" Text="{Binding DevicePath}" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="116,74,0,0" Text="{Binding ExtensionPath}" VerticalAlignment="Top" Width="212" />
+        <Button Content="Synchronize" Height="23" HorizontalAlignment="Left" Margin="23,106,0,0" VerticalAlignment="Top" Width="75" Command="{Binding PerformSyncCommand}"/>
+        <Label Height="28" HorizontalAlignment="Left" Margin="20,139,0,0" VerticalAlignment="Top" Width="583" />
+        <Label Content="Media Device:" Height="28" HorizontalAlignment="Left" Margin="14,43,0,0" VerticalAlignment="Top" />
+        <Label Content="Device Extension:" Height="28" HorizontalAlignment="Left" Margin="14,72,0,0" VerticalAlignment="Top" />
+        <Label Content="Free space: " Height="28" HorizontalAlignment="Left" Margin="334,72,0,0" VerticalAlignment="Top" />
+        <Label Content="Free space: " Height="28" HorizontalAlignment="Left" Margin="334,43,0,0" VerticalAlignment="Top" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="405,43,0,0" VerticalAlignment="Top" Width="72" Content="{Binding DeviceSize, Mode=OneWay}" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="405,69,0,0" VerticalAlignment="Top" Width="72" Content="{Binding ExtensionSize, Mode=OneWay}"  />
+        <Label Content="Library:" Height="28" HorizontalAlignment="Left" Margin="14,12,0,0" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="116,14,0,0"  Text="{Binding LibraryPath}" VerticalAlignment="Top" Width="212" />
+        <Label Content="Size of files:" Height="28" HorizontalAlignment="Left" Margin="334,14,0,0" VerticalAlignment="Top" />
+        <Label HorizontalAlignment="Left" Margin="405,14,0,139" Width="72" Content="{Binding LibrarySize, Mode=OneWay}" />
+        <ProgressBar Height="18" HorizontalAlignment="Left" Margin="106,106,0,0" VerticalAlignment="Top" Width="291" />
+        <Image Height="117" HorizontalAlignment="Left" Margin="486,12,0,0" Stretch="Fill" VerticalAlignment="Top" Width="117" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="405,101,0,0" VerticalAlignment="Top" Width="72" />
+        <Canvas Height="23" HorizontalAlignment="Left" Margin="116,43,0,0" VerticalAlignment="Top" Width="0" Background="#4300D400"></Canvas>
+        <Canvas HorizontalAlignment="Left" Width="0" Margin="116,74,0,84" Background="#4300D400" />
     </Grid>
 </Window>
