@@ -1,0 +1,15 @@
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\bin\Release\MusicSynq.exe.config
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\bin\Release\MusicSynq.exe
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\bin\Release\MusicSynq.pdb
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\bin\Release\taglib-sharp.dll
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MainWindow.baml
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MainWindow.g.cs
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\App.g.cs
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MusicSynq_MarkupCompile.cache
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MusicSynq.g.resources
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MusicSynq.Properties.Resources.resources
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MusicSynq.exe
+C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Release\MusicSynq.pdb

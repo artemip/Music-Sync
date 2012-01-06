@@ -1,0 +1,16 @@
+System.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIODriveError(String driveName, Int32 errorCode)
+   at System.IO.DriveInfo.get_VolumeLabel()
+   at MusicSynq.MainWindow..ctor() in C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\MainWindow.xaml.cs:line 39
+System.IO.IOException: The device is not ready.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIODriveError(String driveName, Int32 errorCode)
+   at System.IO.DriveInfo.get_VolumeLabel()
+   at MusicSynq.MainWindow..ctor() in C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\MainWindow.xaml.cs:line 39
+System.IO.IOException: The volume does not contain a recognized file system.
+Please make sure that all required file system drivers are loaded and that the volume is not corrupted.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFul

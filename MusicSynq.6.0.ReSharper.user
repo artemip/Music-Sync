@@ -1,0 +1,172 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="134" fromTop="7" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2877" fromTop="9" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="9254" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="4146" fromTop="18" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="4346" fromTop="17" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="4708" fromTop="23" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="5614" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="13055" fromTop="17" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="8068" fromTop="27" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="6424" fromTop="44" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="5184" fromTop="25" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="6738" fromTop="47" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="6827" fromTop="47" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="13271" fromTop="24" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="14163" fromTop="36" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="14172" fromTop="35" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="160" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="160" fromTop="17" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="541" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="134" fromTop="7" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="817" fromTop="15" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="2438" fromTop="27" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="7753" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="8791" fromTop="33" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="11943" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="4144" fromTop="40" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="317" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="4121" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="3142" fromTop="9" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="13689" fromTop="29" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="3404" fromTop="27" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="14039" fromTop="35" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="9585" fromTop="25" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="31" />
+      <Item value="string" priority="63" />
+      <Item value="using" priority="30" />
+      <Item value="TagLib" priority="124" />
+      <Item value="file" priority="31" />
+      <Item value="File`0" priority="105" />
+      <Item value="MainWindow`0" priority="63" />
+      <Item value="if" priority="63" />
+      <Item value="s" priority="160" />
+      <Item value="else" priority="31" />
+      <Item value="break" priority="63" />
+      <Item value="continue" priority="63" />
+      <Item value="albumName" priority="63" />
+      <Item value="new" priority="159" />
+      <Item value="image" priority="63" />
+      <Item value="artist" priority="32" />
+      <Item value="artistName" priority="32" />
+      <Item value="name" priority="32" />
+      <Item value="List" priority="29" />
+      <Item value="this" priority="31" />
+      <Item value="Song`0" priority="63" />
+      <Item value="Song" priority="28" />
+      <Item value="null" priority="31" />
+      <Item value="allFiles" priority="31" />
+      <Item value="Length" priority="53" />
+      <Item value="folderPath" priority="31" />
+      <Item value="try" priority="63" />
+      <Item value="catch" priority="31" />
+      <Item value="Exception`0" priority="31" />
+      <Item value="canvas1" priority="223" />
+      <Item value="DriveInfo`0" priority="31" />
+      <Item value="DriveInfo" priority="28" />
+      <Item value="d" priority="32" />
+      <Item value="availableSpace" priority="32" />
+      <Item value="ISet" priority="31" />
+      <Item value="libraryFiles" priority="63" />
+      <Item value="ErrorLog" priority="31" />
+      <Item value="SolidColorBrush" priority="28" />
+      <Item value="Color" priority="28" />
+      <Item value="var" priority="31" />
+      <Item value="bg" priority="31" />
+      <Item value="SolidColorBrush`0" priority="31" />
+      <Item value="BindingGroupProperty" priority="31" />
+      <Item value="Color`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TagLib.File">
+      <Item value="Create`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MusicSynq.MainWindow">
+      <Item value="musicDirectory" priority="26" />
+      <Item value="ErrorLog" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="LastIndexOf`0" priority="26" />
+      <Item value="Substring`0" priority="26" />
+      <Item value="Trim`0" priority="26" />
+      <Item value="ToUpper`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="WriteLine`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.Album">
+      <Item value="image" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.Song">
+      <Item value="File" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TagLib.File">
+      <Item value="MimeType" priority="26" />
+      <Item value="Tag" priority="26" />
+      <Item value="Properties" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TagLib.Properties">
+      <Item value="Duration" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalSeconds" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Canvas">
+      <Item value="Width" priority="107" />
+      <Item value="Background" priority="80" />
+      <Item value="SetValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DriveInfo">
+      <Item value="TotalSize" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ISet`1">
+      <Item value="ElementAt`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Shuffle`1" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Brush">
+      <Item value="SetValue`0" priority="26" />
+      <Item value="Opacity" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Color">
+      <Item value="A" priority="26" />
+      <Item value="G" priority="26" />
+      <Item value="R" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.Canvas">
+      <Item value="BackgroundProperty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Color">
+      <Item value="FromRgb`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Colors">
+      <Item value="Blue" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
