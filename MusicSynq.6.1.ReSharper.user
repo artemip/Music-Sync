@@ -1,0 +1,304 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="284" fromTop="12" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="276" fromTop="12" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/d:Properties/f:Settings.Designer.cs" caret="2355" fromTop="23" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="2022" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:App.xaml.cs" caret="296" fromTop="13" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:App.xaml" caret="31" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2236" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="677" fromTop="22" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1340" fromTop="31" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="36" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="574" fromTop="20" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="200" fromTop="6" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1107" fromTop="5" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="720" fromTop="23" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="32" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="327" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="327" fromTop="22" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="327" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2969" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="258" fromTop="11" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="326" fromTop="27" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="276" fromTop="12" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="40" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="15" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="3665" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="2672" fromTop="24" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="23" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1809" fromTop="37" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="3289" fromTop="42" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="926" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="1837" fromTop="17" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2355" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="3994" fromTop="41" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1507" fromTop="34" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="2022" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="415" />
+      <Item value="string" priority="544" />
+      <Item value="using" priority="61" />
+      <Item value="TagLib" priority="124" />
+      <Item value="file" priority="31" />
+      <Item value="File`0" priority="105" />
+      <Item value="MainWindow`0" priority="127" />
+      <Item value="if" priority="191" />
+      <Item value="s" priority="192" />
+      <Item value="else" priority="31" />
+      <Item value="break" priority="63" />
+      <Item value="continue" priority="127" />
+      <Item value="albumName" priority="63" />
+      <Item value="new" priority="416" />
+      <Item value="image" priority="63" />
+      <Item value="artist" priority="32" />
+      <Item value="artistName" priority="32" />
+      <Item value="name" priority="32" />
+      <Item value="List" priority="29" />
+      <Item value="this" priority="127" />
+      <Item value="Song`0" priority="63" />
+      <Item value="Song" priority="28" />
+      <Item value="null" priority="95" />
+      <Item value="allFiles" priority="31" />
+      <Item value="Length" priority="53" />
+      <Item value="folderPath" priority="31" />
+      <Item value="try" priority="95" />
+      <Item value="catch" priority="63" />
+      <Item value="Exception`0" priority="63" />
+      <Item value="canvas1" priority="223" />
+      <Item value="DriveInfo`0" priority="95" />
+      <Item value="DriveInfo" priority="28" />
+      <Item value="d" priority="32" />
+      <Item value="availableSpace" priority="32" />
+      <Item value="ISet" priority="31" />
+      <Item value="libraryFiles" priority="63" />
+      <Item value="ErrorLog" priority="63" />
+      <Item value="SolidColorBrush" priority="28" />
+      <Item value="Color" priority="28" />
+      <Item value="var" priority="95" />
+      <Item value="bg" priority="31" />
+      <Item value="SolidColorBrush`0" priority="31" />
+      <Item value="BindingGroupProperty" priority="31" />
+      <Item value="Color`0" priority="31" />
+      <Item value="InitializeComponent`0" priority="31" />
+      <Item value="ViewModel" priority="64" />
+      <Item value="MusiqSynqViewModel" priority="28" />
+      <Item value="return" priority="223" />
+      <Item value="DataContext" priority="96" />
+      <Item value="value" priority="191" />
+      <Item value="MusicSynqViewModel`0" priority="63" />
+      <Item value="private" priority="351" />
+      <Item value="void" priority="63" />
+      <Item value="_libraryPath" priority="223" />
+      <Item value="Directory`0" priority="127" />
+      <Item value="NotifyPropertyChanged`0" priority="31" />
+      <Item value="_devicePath" priority="127" />
+      <Item value="_extensionPath" priority="95" />
+      <Item value="Environment`0" priority="31" />
+      <Item value="App`0" priority="58" />
+      <Item value="MusicSynq" priority="31" />
+      <Item value="Properties" priority="58" />
+      <Item value="Settings`0" priority="53" />
+      <Item value="LibraryPath" priority="63" />
+      <Item value="allDrives" priority="63" />
+      <Item value="foreach" priority="31" />
+      <Item value="in" priority="31" />
+      <Item value="drive" priority="159" />
+      <Item value="Management" priority="26" />
+      <Item value="Instrumentation" priority="25" />
+      <Item value="ManagementObject" priority="25" />
+      <Item value="serialNumber" priority="31" />
+      <Item value="DevicePath" priority="31" />
+      <Item value="ExtensionPath" priority="63" />
+      <Item value="GetVolumeSerialNumber`0" priority="63" />
+      <Item value="int" priority="31" />
+      <Item value="LibrarySize" priority="31" />
+      <Item value="FormatBytes`0" priority="63" />
+      <Item value="ValidFileTypes" priority="31" />
+      <Item value="Any`1" priority="26" />
+      <Item value="GetSizeOfFiles`0" priority="31" />
+      <Item value="DeviceSize" priority="31" />
+      <Item value="_extensionSize" priority="63" />
+      <Item value="_performSyncCommand" priority="63" />
+      <Item value="RoutedUICommand" priority="28" />
+      <Item value="PerformSync`0" priority="64" />
+      <Item value="Action" priority="63" />
+      <Item value="Predicate" priority="63" />
+      <Item value="_canExecute" priority="63" />
+      <Item value="parameter" priority="127" />
+      <Item value="_execute" priority="159" />
+      <Item value="Delegate`0" priority="63" />
+      <Item value="AsyncCallback`0" priority="32" />
+      <Item value="CanExecute`0" priority="32" />
+      <Item value="DelegateCommand" priority="28" />
+      <Item value="bool" priority="31" />
+      <Item value="ApplicationId`0" priority="31" />
+      <Item value="SynchronizationContext`0" priority="31" />
+      <Item value="Func" priority="31" />
+      <Item value="object" priority="31" />
+      <Item value="EventArgs" priority="29" />
+      <Item value="ICommand`0" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="TryGetSetting`0" priority="31" />
+      <Item value="EnvironmentVariableTarget`0" priority="31" />
+      <Item value="setting" priority="31" />
+      <Item value="driveName" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TagLib.File">
+      <Item value="Create`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MusicSynq.MainWindow">
+      <Item value="musicDirectory" priority="26" />
+      <Item value="ErrorLog" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="LastIndexOf`0" priority="26" />
+      <Item value="Substring`0" priority="107" />
+      <Item value="Trim`0" priority="26" />
+      <Item value="ToUpper`0" priority="26" />
+      <Item value="EndsWith`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="WriteLine`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.Album">
+      <Item value="image" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.Song">
+      <Item value="File" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TagLib.File">
+      <Item value="MimeType" priority="26" />
+      <Item value="Tag" priority="26" />
+      <Item value="Properties" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TagLib.Properties">
+      <Item value="Duration" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalSeconds" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Canvas">
+      <Item value="Width" priority="107" />
+      <Item value="Background" priority="80" />
+      <Item value="SetValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DriveInfo">
+      <Item value="TotalSize" priority="26" />
+      <Item value="Name" priority="161" />
+      <Item value="VolumeLabel" priority="26" />
+      <Item value="AvailableFreeSpace" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ISet`1">
+      <Item value="ElementAt`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Shuffle`1" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Brush">
+      <Item value="SetValue`0" priority="26" />
+      <Item value="Opacity" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Color">
+      <Item value="A" priority="26" />
+      <Item value="G" priority="26" />
+      <Item value="R" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Controls.Canvas">
+      <Item value="BackgroundProperty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Color">
+      <Item value="FromRgb`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Colors">
+      <Item value="Blue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.MainWindow">
+      <Item value="DataContext" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="GetFolderPath`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment+SpecialFolder">
+      <Item value="MyMusic" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="Properties" priority="53" />
+      <Item value="Dispatcher" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MusicSynq.App">
+      <Item value="SetCookie`0" priority="26" />
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MusicSynq.Properties.Settings">
+      <Item value="Default" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.Properties.Settings">
+      <Item value="Indexer" priority="26" />
+      <Item value="Properties" priority="26" />
+      <Item value="LibraryPath" priority="53" />
+      <Item value="ExtensionSN" priority="53" />
+      <Item value="DeviceSN" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Management.ManagementObject">
+      <Item value="GetPropertyValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Predicate`1">
+      <Item value="Invoke`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action`1">
+      <Item value="BeginInvoke`0" priority="80" />
+      <Item value="Invoke`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.Dispatcher">
+      <Item value="BeginInvoke`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ThreadPool">
+      <Item value="QueueUserWorkItem`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.SynchronizationContext">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Delegate">
+      <Item value="Method" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

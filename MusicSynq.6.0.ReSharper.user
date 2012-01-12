@@ -3,49 +3,49 @@
     <RecentFiles>
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:ListExtension.cs" caret="284" fromTop="12" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="276" fromTop="12" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2236" fromTop="0" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/d:Properties/f:Settings.Designer.cs" caret="2355" fromTop="23" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:App.xaml" caret="31" fromTop="0" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="2022" fromTop="26" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:App.xaml.cs" caret="296" fromTop="13" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="677" fromTop="22" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:App.xaml" caret="0" fromTop="0" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="1851" fromTop="18" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="765" fromTop="25" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1189" fromTop="6" />
     </RecentFiles>
     <RecentEdits>
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1340" fromTop="31" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="36" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="574" fromTop="20" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="200" fromTop="6" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1107" fromTop="5" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="720" fromTop="23" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="32" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="327" fromTop="21" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="327" fromTop="22" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="327" fromTop="0" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2969" fromTop="26" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="258" fromTop="11" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2996" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="11" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="326" fromTop="27" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
       <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml.cs" caret="276" fromTop="12" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="40" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="15" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="26" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="26" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="3665" fromTop="21" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="2672" fromTop="24" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="18105" fromTop="23" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1809" fromTop="37" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="3289" fromTop="42" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="926" fromTop="26" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="1837" fromTop="17" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2355" fromTop="21" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="3994" fromTop="41" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1507" fromTop="34" />
-      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="2022" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="16516" fromTop="40" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="16516" fromTop="15" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="16516" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="16516" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="24" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="16516" fromTop="23" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="37" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="42" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="1864" fromTop="17" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MainWindow.xaml" caret="2382" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="34" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="39" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="41" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:DelegateCommand.cs" caret="709" fromTop="23" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="21" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="25" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="40" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="25" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10749" fromTop="26" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="10776" fromTop="6" />
+      <File id="34349580-D553-4362-86FA-E0E381BA3495/f:MusicSynqViewModel.cs" caret="1189" fromTop="6" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="415" />
+      <Item value="public" priority="447" />
       <Item value="string" priority="544" />
       <Item value="using" priority="61" />
       <Item value="TagLib" priority="124" />
@@ -58,13 +58,13 @@
       <Item value="break" priority="63" />
       <Item value="continue" priority="127" />
       <Item value="albumName" priority="63" />
-      <Item value="new" priority="416" />
+      <Item value="new" priority="512" />
       <Item value="image" priority="63" />
       <Item value="artist" priority="32" />
       <Item value="artistName" priority="32" />
       <Item value="name" priority="32" />
       <Item value="List" priority="29" />
-      <Item value="this" priority="127" />
+      <Item value="this" priority="223" />
       <Item value="Song`0" priority="63" />
       <Item value="Song" priority="28" />
       <Item value="null" priority="95" />
@@ -97,7 +97,7 @@
       <Item value="value" priority="191" />
       <Item value="MusicSynqViewModel`0" priority="63" />
       <Item value="private" priority="351" />
-      <Item value="void" priority="63" />
+      <Item value="void" priority="95" />
       <Item value="_libraryPath" priority="223" />
       <Item value="Directory`0" priority="127" />
       <Item value="NotifyPropertyChanged`0" priority="31" />
@@ -128,7 +128,7 @@
       <Item value="GetSizeOfFiles`0" priority="31" />
       <Item value="DeviceSize" priority="31" />
       <Item value="_extensionSize" priority="63" />
-      <Item value="_performSyncCommand" priority="63" />
+      <Item value="_performSyncCommand" priority="95" />
       <Item value="RoutedUICommand" priority="28" />
       <Item value="PerformSync`0" priority="64" />
       <Item value="Action" priority="63" />
@@ -145,13 +145,17 @@
       <Item value="SynchronizationContext`0" priority="31" />
       <Item value="Func" priority="31" />
       <Item value="object" priority="31" />
-      <Item value="EventArgs" priority="29" />
-      <Item value="ICommand`0" priority="31" />
+      <Item value="EventArgs" priority="87" />
+      <Item value="ICommand`0" priority="63" />
       <Item value="static" priority="31" />
       <Item value="TryGetSetting`0" priority="31" />
       <Item value="EnvironmentVariableTarget`0" priority="31" />
       <Item value="setting" priority="31" />
       <Item value="driveName" priority="31" />
+      <Item value="ExtensionSize" priority="31" />
+      <Item value="CanExecuteChanged" priority="31" />
+      <Item value="DelegateCommand`0" priority="31" />
+      <Item value="true" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@TagLib.File">
       <Item value="Create`0" priority="53" />
@@ -282,6 +286,13 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="IsNullOrEmpty`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Input.ICommand">
+      <Item value="CanExecuteChanged" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MusicSynq.DelegateCommand">
+      <Item value="RaiseCanExecuteChanged`0" priority="26" />
+      <Item value="CanExecuteChanged" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

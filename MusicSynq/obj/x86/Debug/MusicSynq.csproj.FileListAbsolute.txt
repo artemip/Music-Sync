@@ -13,3 +13,18 @@ C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86
 C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq.exe
 C:\Users\Artem\Documents\Visual Studio 2010\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq.pdb
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\bin\Debug\MusicSynq.exe.config
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq.exe
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq.pdb
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\bin\Debug\MusicSynq.exe
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\bin\Debug\MusicSynq.pdb
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\bin\Debug\taglib-sharp.dll
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MainWindow.baml
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\App.g.cs
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq_MarkupCompile.cache
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq.g.resources
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\MusicSynq.Properties.Resources.resources
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Artem\Documents\Projects\MusicSynq\MusicSynq\obj\x86\Debug\GenerateResource.write.1.tlog
