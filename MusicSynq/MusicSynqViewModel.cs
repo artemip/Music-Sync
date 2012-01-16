@@ -39,12 +39,17 @@ namespace MusicSynq
 
             GetDrivePaths();
 
-            _performSyncCommand = new BackgroundCommand(AllDrivesValid, p => PerformSync(Application.Current.Dispatcher));
+            _performSyncCommand = new BackgroundCommand(CanSynchronize, p => PerformSync(Application.Current.Dispatcher));
         }
 
-        private bool AllDrivesValid()
+        private bool IsSynchronizing
         {
-            return Directory.Exists(_libraryPath) && Directory.Exists(_devicePath) && Directory.Exists(_extensionPath);
+            get; set; 
+        }
+
+        private bool CanSynchronize()
+        {
+            return Directory.Exists(_libraryPath) && Directory.Exists(_devicePath) && Directory.Exists(_extensionPath) && !IsSynchronizing;
         }
 
         private void GetDrivePaths()
@@ -75,7 +80,15 @@ namespace MusicSynq
         {
             var synchronizer = new Synchronizer(this, _libraryPath, _devicePath, _extensionPath);
 
+            Properties.Settings.Default.Save();
+
+            IsSynchronizing = true;
+            CommandManager.InvalidateRequerySuggested();
+
             synchronizer.AnalyzeAndSynchronize();
+
+            IsSynchronizing = false;
+            CommandManager.InvalidateRequerySuggested();
         }
 
         public string LibraryPath
@@ -115,7 +128,7 @@ namespace MusicSynq
                 _devicePath = value;
                 Properties.Settings.Default.DeviceName = GetVolumeName(value.Substring(0, 1));
 
-                DeviceSize = FileOperations.FormatBytes((new DriveInfo(value)).AvailableFreeSpace);
+                UpdateDeviceAvailableSpace((new DriveInfo(value)).AvailableFreeSpace);
 
                 NotifyPropertyChanged("DevicePath");
                 CommandManager.InvalidateRequerySuggested();
@@ -137,7 +150,7 @@ namespace MusicSynq
                 _extensionPath = value;
                 Properties.Settings.Default.ExtensionName = GetVolumeName(value.Substring(0, 1));
 
-                ExtensionSize = FileOperations.FormatBytes((new DriveInfo(value)).AvailableFreeSpace);
+                UpdateExtensionAvailableSpace((new DriveInfo(value)).AvailableFreeSpace);
 
                 NotifyPropertyChanged("ExtensionPath");
                 CommandManager.InvalidateRequerySuggested();
@@ -276,6 +289,57 @@ namespace MusicSynq
                     _albumArt = value;
                     NotifyPropertyChanged("AlbumArt");
                 }
+        }
+
+        public void SetProgressBarMaximum(int max)
+        {
+            ProgressBarMaximum = TotalToProcessCount = max;
+        }
+
+        public void UpdateProgressBar(int progress)
+        {
+            ProcessedCount = progress;
+        }
+
+        public void UpdateExtensionAvailableSpace(long availableSpace)
+        {
+            var driveInfo = new DriveInfo(_extensionPath);
+            var progressBarWidth = GetProgressBarWidth(availableSpace, driveInfo.TotalSize);
+
+            var backgroundBrush = GetBackgroundBrushColor(progressBarWidth);
+
+            backgroundBrush.Freeze();
+
+            ExtensionSize = FileOperations.FormatBytes(availableSpace);
+            ExtensionProgressBarWidth = progressBarWidth;
+            ExtensionProgressBarColor = backgroundBrush;
+        }
+
+        public void UpdateDeviceAvailableSpace(long availableSpace)
+        {
+            var driveInfo = new DriveInfo(_devicePath);
+            var progressBarWidth = GetProgressBarWidth(availableSpace, driveInfo.TotalSize);
+
+            var backgroundBrush = GetBackgroundBrushColor(progressBarWidth);
+
+            backgroundBrush.Freeze();
+
+            DeviceSize = FileOperations.FormatBytes(availableSpace);
+            DeviceProgressBarWidth = progressBarWidth;
+            DeviceProgressBarColor = backgroundBrush;
+        }
+
+        public double GetProgressBarWidth(double availableSpace, double totalSize)
+        {
+            return 212 - 212 * (availableSpace / totalSize);
+        }
+
+        public SolidColorBrush GetBackgroundBrushColor(double progressBarWidth)
+        {
+            return new SolidColorBrush(Color.FromRgb((byte)progressBarWidth, (byte)(212 - progressBarWidth), 0))
+            {
+                Opacity = 0.67
+            };
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

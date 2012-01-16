@@ -24,7 +24,7 @@
         <ProgressBar Maximum="{Binding ProgressBarMaximum}" Value="{Binding ProcessedCount}" Height="18" HorizontalAlignment="Left" Margin="106,106,0,0" VerticalAlignment="Top" Width="291" />
         <Image Source="{Binding AlbumArt}" Height="117" HorizontalAlignment="Left" Margin="486,12,0,0" Stretch="Fill" VerticalAlignment="Top" Width="117" />
         <Label Content="{Binding ProcessedCountString}" Height="28" HorizontalAlignment="Left" Margin="405,101,0,0" VerticalAlignment="Top" Width="72" />
-        <Canvas Width="{Binding DeviceProgressBarWidth}" Background="{Binding DeviceProgressBarColor}" Height="23" HorizontalAlignment="Left" Margin="116,43,0,0" VerticalAlignment="Top"></Canvas>
-        <Canvas Width="{Binding ExtensionProgressBarWidth}" Background="{Binding ExtensionProgressBarColor}" HorizontalAlignment="Left" Margin="116,74,0,84" />
+        <Canvas Width="{Binding DeviceProgressBarWidth}" Background="{Binding DeviceProgressBarColor}" Height="21" HorizontalAlignment="Left" Margin="116,44,0,0" VerticalAlignment="Top"></Canvas>
+        <Canvas Width="{Binding ExtensionProgressBarWidth}" Background="{Binding ExtensionProgressBarColor}" HorizontalAlignment="Left" Margin="116,74,0,84" Height="21" />
     </Grid>
 </Window>

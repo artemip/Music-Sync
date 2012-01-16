@@ -73,13 +73,16 @@ namespace MusicSynq
         private void Synchronize()
         {
             var filesToAdd = _libraryFiles.Except(_deviceFiles).ToList();
-            var numRetries = NumRetries;
             var filesProcessed = 0;
 
-            SetProgressBarMaximum(filesToAdd.Count);
+            _viewModel.SetProgressBarMaximum(filesToAdd.Count);
+
+            filesToAdd.Sort();
 
             foreach (var file in filesToAdd)
             {
+                var numRetries = NumRetries;
+
                 var driveInfo = new DriveInfo(_devicePath);
 
                 try
@@ -105,7 +108,7 @@ namespace MusicSynq
 
                         if (driveInfo.AvailableFreeSpace - fileInfo.Length > 104857600)
                         {
-                            UpdateDeviceAvailableSpace(driveInfo.AvailableFreeSpace - fileInfo.Length);
+                            _viewModel.UpdateDeviceAvailableSpace(driveInfo.AvailableFreeSpace - fileInfo.Length);
 
                             var destinationFilePath = _devicePath + "Music\\" + file;
 
@@ -120,7 +123,7 @@ namespace MusicSynq
                         }
                         else if ((driveInfo = new DriveInfo(_extensionPath)).AvailableFreeSpace > fileInfo.Length)
                         {
-                            UpdateExtensionAvailableSpace(driveInfo.AvailableFreeSpace - fileInfo.Length);
+                            _viewModel.UpdateExtensionAvailableSpace(driveInfo.AvailableFreeSpace - fileInfo.Length);
 
                             var destinationFilePath = _extensionPath + "Music\\" + file;
 
@@ -149,61 +152,10 @@ namespace MusicSynq
                     }
                 }
 
-                UpdateProgressBar(++filesProcessed);
+                _viewModel.UpdateProgressBar(++filesProcessed);
             }
 
             UpdateStatusLabel("Done!");
-        }
-
-        private void SetProgressBarMaximum(int max)
-        {
-            _viewModel.ProgressBarMaximum = _viewModel.TotalToProcessCount = max;
-        }
-
-        private void UpdateProgressBar(int progress)
-        {
-            _viewModel.ProcessedCount = progress;
-        }
-
-        private void UpdateExtensionAvailableSpace(long availableSpace)
-        {
-            var driveInfo = new DriveInfo(_extensionPath);
-            var progressBarWidth = GetProgressBarWidth(availableSpace, driveInfo.TotalSize);
-
-            var backgroundBrush = GetBackgroundBrushColor(progressBarWidth);
-
-            backgroundBrush.Freeze();
-
-            _viewModel.ExtensionSize = FileOperations.FormatBytes(availableSpace);
-            _viewModel.ExtensionProgressBarWidth = progressBarWidth;
-            _viewModel.ExtensionProgressBarColor = backgroundBrush;
-        }
-
-        private void UpdateDeviceAvailableSpace(long availableSpace)
-        {
-            var driveInfo = new DriveInfo(_devicePath);
-            var progressBarWidth = GetProgressBarWidth(availableSpace, driveInfo.TotalSize);
-
-            var backgroundBrush = GetBackgroundBrushColor(progressBarWidth);
-
-            backgroundBrush.Freeze();
-
-            _viewModel.DeviceSize = FileOperations.FormatBytes(availableSpace);
-            _viewModel.DeviceProgressBarWidth = progressBarWidth;
-            _viewModel.DeviceProgressBarColor = backgroundBrush;
-        }
-        
-        private double GetProgressBarWidth(double availableSpace, double totalSize)
-        {
-            return 212 - 212 * (availableSpace / totalSize);
-        }
-
-        private SolidColorBrush GetBackgroundBrushColor(double progressBarWidth)
-        {
-            return new SolidColorBrush(Color.FromRgb((byte)progressBarWidth, (byte)(212 - progressBarWidth), 0))
-            {
-                Opacity = 0.67
-            };
         }
 
         private IEnumerable<string> CreateFileSet(string folderPath)
